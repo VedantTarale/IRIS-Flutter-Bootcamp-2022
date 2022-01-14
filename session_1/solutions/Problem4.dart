@@ -72,7 +72,7 @@ class BranchElective extends OpenElective {// Creating class BranchElective inhe
 }
 
 void main() {
-  // Displaying Branch codes for entering into BranchElectives section
+  // Displaying Branch codes for entering into BranchElectives section.
   print("Branch Codes:");
   print("COMPUTER SCIENCE:  CSE");
   print("ARTIFICIAL INTELLIGENCE:  AI");

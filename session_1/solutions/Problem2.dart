@@ -17,7 +17,7 @@ void main(){
   double temp;
   bool condition = true;  //default condition true for number not being a semi-prime.
   
-  for (double i = 2; i < input; i++) { //Loop section to check weather a number is semi-prime
+  for (double i = 2; i < input; i++) { //Loop section to check whether a number is semi-prime
     if(input%i==0){
       if (checkPrime(i)) {  // Checking if "i" is a prime
       temp = input/i;       // obtaining the complement factor of "input" correspinding to i.

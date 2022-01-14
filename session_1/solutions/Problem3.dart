@@ -10,7 +10,7 @@ void main() {
     print("Enter the value of element ${i + 1}");
     array[i] = int.parse(stdin.readLineSync()!);  //Taking element value for each index.
     
-    for (var j = 2; j < array[i]; j++) {  // for loop to check weather the element at a particular index is a prime.
+    for (var j = 2; j < array[i]; j++) {  // for loop to check whether the element at a particular index is a prime.
       condition = 1;
       if (array[i] == 1 || array[i] == 0) { // 0 and 1 are not primes.
         condition = 0;

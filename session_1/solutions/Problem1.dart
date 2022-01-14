@@ -13,7 +13,7 @@ void main(){
   }
   }
 }
-int fibonacci(n){ //Recursive function to calculate nth term of the fibonacci series.
+int fibonacci(n){ //Recursive function to calculate nth term of fibonacci series. 
   int number;
   if(n==1){
     return 0;
